@@ -5,11 +5,12 @@ em HTML é class = em CSS . (pode vários elementos)
 */
 
 body {
-    background-color: rgba(30, 203, 226, 0.979) rgb(293, 295, 203);
+    background-color: rgba(158, 218, 188, 0.247) ;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal ;
 }
 h1 {
-    color: rgb(12, 100, 9);
+    color: rgb(6, 59, 4);
 }
 h1#principal {
     text-align: center;
@@ -19,16 +20,16 @@ h2 {
     color: #3c805e;
 }
 
-.basico {color:#0d3108;
+.basico {color:#050446;
     font-weight: 900;
 
 }
 .intermediario {
-    color: #f3df26);
+    color: #2c2802);
 }
 .avancado {
-    color: #bd4141;
+    color: #d41818;
 }
 .destaque {
-    background-color: rgb(213, 231, 130);
+    background-color: rgba(166, 196, 18, 0.479);
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2? family = Work + Sans: ital, wght @ 0,300; 0,400; 0,600; 1,400; 1,600; 1,900 & display = swap');
           body {
             font-family: 'Work Sans', Helvetica, sans-serif ;
            /* Medidas Absolutas:
@@ -15,9 +16,14 @@
             em, ex, rem, vw, vh, %  
             */
             font-size: 1.5em;
-            /* Usar px, em*/          
+            /*Usar px, em */ 
+
+            font-weight: normal;  
+            /* lighter normal bold bolder  */  
         }
+
         h1 {
+            font: italic bolder 2em 'Work Sans', sans-serif;
             /* shorthand font
             - font-style -> font-weigth -> font-size -> font-family
 
@@ -27,14 +33,14 @@
             font-size: 2em;
             font-style: italic;
             */
-            font: italic bolder 2em 'Work Sans', sans-serif;
         }
+
         h2 {
             font: bold 1.5em 'Work Sans';
         }
     </style>
 </head>
-<body>
+'<body>
     <h1>Trabalhando com Fontes</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, repellendus. Eaque cum temporibus iure est! Quibusdam dicta eius aspernatur omnis! Molestiae, tempore aut. Temporibus ut nesciunt repellat. Enim, placeat numquam!</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum et aliquam, debitis perferendis error repellendus est quasi minus qui libero recusandae fugit molestiae dicta vero maxime culpa a illo voluptates!</p>

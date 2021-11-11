@@ -10,19 +10,21 @@ p {
 body {
     background-image: linear-gradient(to right, #F1D8C9, #F2C3A7);
 }
+
 main {
-    background-color: rgb(206, 142, 163;
+    background-color:white;
     border-radius: 20px;
-    box-shadow: 5px 5px 15px rgb(144, 151, 180);
+    box-shadow: 5px 5px 15px rgb(228, 208, 120);
     width: 600px;
-    padding: 15px;
+    padding: 10px;
     margin: auto;
 }
 h1 { 
-    color: #f36709;
+    color: #eb823c;
     text-align: center;
-    text-shadow: 1px 1px 1px #dda47e;
+    text-shadow: 1px 1px 2px #dda47e;
 }
+
 h2 {
-   color: #125189;
+   color: #072846;
 }
